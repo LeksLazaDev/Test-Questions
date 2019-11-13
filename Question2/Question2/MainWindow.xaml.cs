@@ -24,5 +24,26 @@ namespace Question2
         {
             InitializeComponent();
         }
+
+        private void BtnUsers_Click(object sender, RoutedEventArgs e)
+        {
+            Users userWindow = new Users();
+            userWindow.Show();
+            this.Close();
+        }
+
+        private void BtnBranches_Click(object sender, RoutedEventArgs e)
+        {
+            Branches branchWindow = new Branches();
+            branchWindow.Show();
+            this.Close();
+        }
+
+        private void BtnShifts_Click(object sender, RoutedEventArgs e)
+        {
+            Shifts shiftsWindow = new Shifts();
+            shiftsWindow.Show();
+            this.Close();
+        }
     }
 }
